@@ -17,11 +17,8 @@ a { color: inherit; }
 /* ---------- Header ---------- */
 header { display: flex; justify-content: space-between; align-items: center; padding: 22px var(--pad); }
 /* Logo placeholder: replace the text with <img src="images/logo.svg" alt="Lorem Ipsum"> */
-.logo {
-  display: grid; place-items: center; text-decoration: none;
-  width: 120px; height: 48px; border: 1px dashed var(--mute);
-  color: var(--mute); font-family: var(--serif); font-size: 1.1rem;
-}
+.logo { display: block; text-decoration: none; }
+.logo img { display: block; height: 48px; width: auto; }
 nav a {
   text-decoration: none; margin-left: 32px; font-family: var(--serif);
   font-size: 1.3rem; color: var(--mute); padding-bottom: 2px; border-bottom: 1px solid transparent;
