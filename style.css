@@ -50,7 +50,7 @@ nav a[aria-current] { border-color: var(--ink); }
 }
 .contact a { text-decoration: none; border-bottom: 1px solid var(--line); }
 .contact a:hover { border-color: var(--ink); }
-footer { padding: 56px var(--pad) 40px; color: var(--mute); font-size: 0.8rem; text-align: center; }
+footer { padding: 56px var(--pad) 40px; color: var(--mute); font-family: var(--serif); font-size: 1rem; text-align: center; }
 
 /* ---------- Gallery (masonry: CSS columns, photos keep their own proportions) ---------- */
 .gallery { padding: 8px var(--pad) 64px; column-count: 3; column-gap: var(--gap); }
